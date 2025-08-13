@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Day_2</title>
+</head>
+<body>
+    <form action="">
+     Country   <input type="text" name="Country" list="con">
+        <datalist id="con">
+            <option value="Nepal">Nepal</option>
+            <option value="india">india</option>
+            <option value="bhutan">bhutan</option>
+            <option value="pak">pak</option>
+        </datalist>
+        <hr>
+        Tech: <select name="Tech" id="">
+            <optgroup label="Frontend">
+                <option value="Html">
+                    Html
+                </option>
+                <option value="Css">
+                    Css
+                </option>
+                <option value="JavaScript">
+                    JavaScript
+                </option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="Node">Node</option>
+                <option value="PHP">PHP</option>
+                <option value="JAVA">JAVA</option>
+            </optgroup>
+        </select>
+        <hr>
+        readonly: <input type="text" name="n1" value="Sujal" readonly>
+        Disabled: <input type="text" name="n2" value="Sujal2" disabled>
+        hidden: <input type="hidden" name="n3" value="Sujal3">
+        photo: <input type="file" name="n4" accept="image/*">
+        <hr>
+        required: <input type="text" name="n5" required>
+        <hr>
+        autocomplete: <input type="text" name="n6" autocomplete="off">
+        <hr>
+        autofocus: <input type="text" name="n7" autofocus>
+        <hr>
+        range: <input type="range" name="n8">
+        <hr>
+        Domain: <input type="url" name="Domain">
+        <hr>
+        <button>Send</button>
+    </form>
+</body>
+</html>

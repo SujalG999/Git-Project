@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Its my First web page</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- Html element = tag + content -->
+         <details>
+         <summary>html element</summary>
+         <p>Sujal Ghimire</p>
+         <!-- sujal(content) + <p></p>(tag) = html element -->
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h4>Life is good</h4>
+          <h5>Lorem, ipsum.</h5>
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis.</h6>
+          </details>
+          <!-- Html Heading h1-h6 -->
+           <details>
+           <summary>html tags</summary>
+            <p>strong>blabla bla</strong>. Distinctio ex mollitia facilis? Neque voluptas nam in placeat laudantium aspernatur nihil incidunt est <
+                Lorem ipsum dolor sit, amet consectetur <i>inventore impedi</i>t, enim optio, <em>praesentium ducimus dolorum excepturi</em>.
+                Consequuntur, tempore ab labore delectus, doloremque ipsum necessitatibus vero odio ipsa, aut illum nulla. Ad enim optio nesciunt incidunt, non aperiam officiis excepturi soluta. <mark>Debitis impedit similique porro aliquam deserunt?</mark>
+                Praesentium eos eligendi quam obcaecati perferendis <br> soluta libero, <q>recusandae autem sapiente minus veniam minima</q> animi molestias officiis odio dolores alias quisquam <hr> cum officia nobis ullam optio. Ullam corrupti similique exercitationem.
+            </p>
+
+            <p>nrs- <del>2000</del> <ins>1500</ins></p>
+
+            <p>h<sub>2</sub>0</p>
+            <p>e = mc<sup>2</sup></p>
+            </details>
+            <!-- html text formatting (strong use garne instead of <b>, i => italic , em =>italic(use this instead of i), mark => highlight, q => quotation , del le discount ma kateko jastai banaidinxa ani ins le tyo discount side ko price jastai haldinxa, )-->
+                <details>
+                    <summary>ordered List</summary>
+                <ol type="1" start="4">
+                    <li>Mango</li>
+                    <li>Orange</li>
+                    <li>banana</li>
+                </ol>
+                 <ol type="i" start="5">
+                    <li>Mango</li>
+                    <li>Orange</li>
+                    <li>banana</li>
+                </ol>
+                 <ol type="a" start="10">
+                    <li>Mango</li>
+                    <li>Orange</li>
+                    <li>banana</li>
+                </ol>
+                </details>
+                <!-- 
+ordered list => ol, li => list , attribute => type => defines the way suppose you write "1" it lists from one if you type "a" it lists alphabetically if u write "i" it list in roman numbers also  start attribute => start starts from the number you've listed lets suppose that you write 5 it start count from 5
+        
+Basic Structure:
+
+<ol> creates the ordered list container
+<li> creates each list item inside
+
+The type attribute controls numbering style:
+
+type="1" → Numbers: 1, 2, 3, 4...
+type="a" → Lowercase letters: a, b, c, d...
+type="A" → Uppercase letters: A, B, C, D...
+type="i" → Lowercase Roman: i, ii, iii, iv...
+type="I" → Uppercase Roman: I, II, III, IV...
+
+The start attribute sets the starting point:
+
+start="5" → Begins counting from 5 instead of 1
+Works with any type (numbers, letters, or Roman numerals)
+
+reverse=> Starts from the reverse counting
+
+Example:
+html<ol type="a" start="3">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+This creates: c. First item, d. Second item
+The type defines how it counts, while start defines where it begins counting.
+ -->
+<details>
+    <summary>Unordered list</summary>
+<ul type = "square" >
+    <li>Mango</li>
+    <li>Orange</li>
+    <li>Banana</li>
+</ul>
+<ul type = "circle" >
+    <li>Mango</li>
+    <li>Orange</li>
+    <li>Banana</li>
+</ul>
+<ul type = "disc" >
+    <li>Mango</li>
+    <li>Orange</li>
+    <li>Banana</li>
+</ul>
+</details>
+<!-- 
+Unordered List => ul, li => list items, attribute => type => defines the bullet style
+
+Basic Structure:
+<ul> creates the unordered list container
+<li> creates each list item inside
+
+The type attribute controls bullet style:
+
+type="disc" → Filled circles: • (default)
+type="circle" → Empty circles: ○
+type="square" → Filled squares: ■
+
+Note: The type attribute for <ul> is deprecated in HTML5
+Modern approach uses CSS list-style-type property instead:
+
+CSS alternatives:
+list-style-type: disc;     → • (filled circle)
+list-style-type: circle;   → ○ (empty circle) 
+list-style-type: square;   → ■ (filled square)
+list-style-type: none;     → No bullets
+
+Additional CSS options:
+list-style-type: decimal;        → 1, 2, 3...
+list-style-type: lower-alpha;    → a, b, c...
+list-style-type: upper-roman;    → I, II, III...
+--> 
+<details>
+    <summary>Description list</summary>
+<dl>
+    <dt>Nepal</dt>
+    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In fugit aspernatur numquam voluptatibus cumque, laboriosam, natus ex quod laudantium rerum harum? Qui itaque aut optio similique beatae placeat ab! Aperiam?</dd>
+
+    <dt>India</dt>
+    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad nemo aperiam eum magnam asperiores amet quibusdam accusantium dicta ducimus, maiores cupiditate sapiente nulla at exercitationem modi dolores eaque iure?</dd>
+
+    <dt>China</dt>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum suscipit qui alias dolores dicta distinctio. Magnam porro odio blanditiis ipsa cum! Voluptatum doloremque debitis quidem aspernatur tempora facilis quis laboriosam?</p>
+
+    <dt>Sweden</dt>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quis dolores molestias itaque ullam ratione, ea magnam inventore ipsam voluptatem, alias corrupti quia nam ab assumenda accusamus, rerum magni officia!</p>
+
+    
+</dl>
+</details>
+    </body>
+</html>
